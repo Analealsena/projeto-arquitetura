@@ -1,0 +1,87 @@
+/* Estilo geral do site*/
+*{
+    margin:0;
+    padding: 0%;
+    font-family:'Inter'; 
+    box-sizing: border-box; 
+}
+.flex{
+    display: flex;
+}
+/*Estilo do cabeçalho*/
+#topo{
+    top: 0px;
+    height: 275px;
+    width: 1440px;
+    background-color: #303030;
+}
+#titletop{
+    margin-left: 55px;
+    margin-top: 0px;
+    margin-right: 25px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 74px;
+}
+#texttop{
+    margin-left: 55px;
+    margin-top: 13px;
+    margin-bottom: 200px;
+    color:#FFFFFF;
+}
+/*Estilo das informações*/
+#informacoes{
+  background-color: #F9F9F9;
+  display: grid;
+  grid-auto-flow: column;
+  padding: 50px  100px  50px  100px;  
+}
+/*EStilo da história*/
+section.historia{ 
+   padding: 40px 4%;
+
+} 
+section.historia  .flex{
+align-items: center;
+justify-content: space-evenly;
+}
+/*Estilo do formulário*/
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+#titulo-servico{
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 25px;
+    margin-top: auto;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+   background-color: #C07212;
+    width: 250px;
+    height: 40px;
+    color:#FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 35px;
+}
+button:hover{
+    background-color: #42290a;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #364146cb;
+    transition-duration: 0.5s;
+}
